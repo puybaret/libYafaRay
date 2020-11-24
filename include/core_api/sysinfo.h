@@ -29,6 +29,7 @@ __BEGIN_YAFRAY
 class YAFRAYCORE_EXPORT sysInfo_t
 {
 	public:
+		sysInfo_t() { }
 		int getNumSystemThreads() const;
 };
 

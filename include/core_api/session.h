@@ -25,6 +25,7 @@
 
 #include <yafray_constants.h>
 #include <utilities/threadUtils.h>
+#include <string>
 
 __BEGIN_YAFRAY
 
