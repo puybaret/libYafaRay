@@ -125,7 +125,7 @@ textureImage_t::textureImage_t(imageHandler_t *ih, int intp, float gamma, colorS
 
 textureImage_t::~textureImage_t()
 {
-	// Here we simply clear the pointer, yafaray's core will handle the memory cleanup
+	if (image) delete image;
 	image = nullptr;
 }
 
